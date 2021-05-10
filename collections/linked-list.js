@@ -98,3 +98,11 @@ ll.insertLast(4)
 //console.log(ll.find(4))
 ll.delete('Vedat')
 ll.getAll()
+
+/*
+  Last result: 5
+               3
+               4
+*/
+
+//youtube: https://www.youtube.com/watch?v=OmMRI9GeNMo
