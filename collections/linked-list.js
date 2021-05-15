@@ -30,12 +30,10 @@ class LinkedList {
     }
   }
   getElementByIndex(index) {
-    if (!this.head) {
-      return null
-    }
-    if (index === 0) {
-      return this.head
-    }
+    if (!this.head) return null
+
+    if (index === 0) return this.head
+
     if (index < this.length && index > 0) {
       let el = this.head
       for (let i = 0; i < index; i++) {
@@ -46,9 +44,8 @@ class LinkedList {
     return null
   }
   delete(data) {
-    if (!this.head) {
-      return null
-    }
+    if (!this.head) return null
+
     let el = this.head
     while (el.next) {
       if (el.next.data === data) {
@@ -65,9 +62,8 @@ class LinkedList {
     }
   }
   find(data) {
-    if (!this.head) {
-      return null
-    }
+    if (!this.head) return null
+
     let el = this.head
     while (el) {
       if (el.data === data) {
@@ -78,9 +74,8 @@ class LinkedList {
     return null
   }
   getAll() {
-    if (!this.head) {
-      return null
-    }
+    if (!this.head) return null
+
     let el = this.head
     while (el) {
       console.log(el.data)
