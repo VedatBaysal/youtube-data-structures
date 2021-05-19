@@ -1,5 +1,7 @@
 # Data Structures
 
-Bubble Sort: https://www.youtube.com/watch?v=tc4Pm9qopsg
+Bubble Sort: https://youtu.be/tc4Pm9qopsg
 
-Linked List: https://www.youtube.com/watch?v=OmMRI9GeNMo
+Linked List: https://youtu.be/OmMRI9GeNMo
+
+Binary Search: https://youtu.be/-wJ-K0w-2jg
