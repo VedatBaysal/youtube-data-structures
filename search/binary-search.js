@@ -21,3 +21,5 @@ const search = (arr, x) => {
 //console.log(search(arr, 800)) result: 10
 
 console.log(search(arr, 9)) // result: 4
+
+//youtube: https://www.youtube.com/watch?v=-wJ-K0w-2jg
